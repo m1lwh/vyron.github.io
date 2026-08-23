@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог - vyron</title>
+  <meta name="description" content="Все модели vyron: футболки и свитшоты с кинематографичными принтами. Фильтры, размеры и честные цены со скидкой открытия.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="vyron">
+  <meta property="og:title" content="Каталог - vyron">
+  <meta property="og:description" content="Футболки и свитшоты с кинематографичными принтами. Фильтры по размеру и цене, сортировка.">
+  <meta property="og:image" content="assets/logo.jpg">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <noscript><style>[data-reveal]{opacity:1;transform:none}.loader{display:none}</style></noscript>
+</head>
+<body data-page="catalog">
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <div class="loader" id="loader" role="status" aria-label="Загрузка сайта vyron">
+    <div class="loader-inner">
+      <img src="assets/logo.jpg" alt="vyron">
+      <div class="loader-bar"><i></i></div>
+      <span class="loader-caption" data-i18n="loader.caption">FW 26 · Opening Offer</span>
+    </div>
+  </div>
+
+  <header id="site-header"></header>
+
+  <main id="main" class="page">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow" data-i18n="list.pageEyebrow">Каталог FW 26</p>
+        <h1 data-i18n="list.pageTitle">Всё, что нужно.<br>И ничего лишнего</h1>
+      </div>
+    </section>
+
+    <section class="container catalog-layout" aria-label="Товары">
+      <aside class="filters" id="filters-panel"></aside>
+
+      <div>
+        <div class="catalog-toolbar">
+          <label class="toolbar-search">
+            <svg class="icon"><use href="#i-search"/></svg>
+            <input type="search" id="catalog-search-input" data-i18n-placeholder="list.searchPh" placeholder="Поиск по каталогу…" aria-label="Поиск по каталогу">
+          </label>
+        </div>
+
+        <div class="catalog-toolbar">
+          <p class="results-count" id="results-count" aria-live="polite"></p>
+          <div class="toolbar-right">
+            <button type="button" class="filters-open-btn" data-action="open-filters"><svg class="icon"><use href="#i-filter"/></svg><span data-i18n="list.openFilters">Фильтры</span></button>
+            <div class="select">
+              <select id="catalog-sort" aria-label="Сортировка"></select>
+            </div>
+          </div>
+        </div>
+
+        <nav class="search-tags" id="catalog-chips" aria-label="Категории"></nav>
+        <div class="products-grid" id="catalog-grid"></div>
+        <div class="load-more-wrap" id="load-more-wrap" hidden>
+          <button type="button" class="btn btn-outline btn-lg" id="load-more-btn">Показать ещё</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/config.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/currency.js" defer></script>
+  <script src="js/utils.js" defer></script>
+  <script src="js/catalog.data.js" defer></script>
+  <script src="js/products.js" defer></script>
+  <script src="js/cart.js" defer></script>
+  <script src="js/wishlist.js" defer></script>
+  <script src="js/ui.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/catalog.js" defer></script>
+  <script src="js/product.js" defer></script>
+  <script src="js/checkout.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+:root {
+  --color-bg: #0a0a0b;
+  --color-bg-deep: #060607;
+  --color-surface: #121214;
+  --color-surface-2: #18181b;
+  --color-surface-3: #1f1f23;
+  --color-text: #f4f2ed;
+  --color-text-soft: #c9c6bf;
+  --color-muted: #8f8d88;
+  --color-faint: #5b5a57;
+  --color-border: rgba(244, 242, 237, 0.08);
+  --color-border-strong: rgba(244, 242, 237, 0.16);
+  --color-accent: #c8a97e;
+  --color-accent-strong: #ddc094;
+  --color-accent-dim: rgba(200, 169, 126, 0.14);
+  --color-danger: #e0685c;
+  --color-success: #85c9a0;
+
+  --font-display: "Unbounded", "Manrope", system-ui, sans-serif;
+  --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-pill: 999px;
+
+  --transition-fast: 160ms;
+  --transition-normal: 320ms;
+  --transition-slow: 600ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-inout: cubic-bezier(0.65, 0.05, 0.36, 1);
+
+  --shadow-sm: 0 2px 12px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 12px 40px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 32px 80px rgba(0, 0, 0, 0.55);
+  --glow-accent: 0 0 0 1px rgba(200, 169, 126, 0.35), 0 8px 30px rgba(200, 169, 126, 0.12);
+
+  --header-h: 72px;
+  --topbar-h: 38px;
+  --container-max: 1440px;
+  --container-pad: clamp(20px, 4vw, 64px);
+  --section-gap: clamp(72px, 10vw, 140px);
+
+  --z-header: 100;
+  --z-scrim: 200;
+  --z-drawer: 300;
+  --z-modal: 400;
+  --z-search: 500;
+  --z-toast: 700;
+  --z-loader: 900;
+
+  --media-ratio: 3 / 4;
+}
