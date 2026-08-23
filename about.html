@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О бренде - vyron</title>
+  <meta name="description" content="vyron - независимый лейбл одежды по мотивам кино и сериалов. Лимитированные дропы, качественные бланки, живой сервис.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="vyron">
+  <meta property="og:title" content="О бренде - vyron">
+  <meta property="og:description" content="Одежда для людей, которые любят кино.">
+  <meta property="og:image" content="assets/logo.jpg">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <noscript><style>[data-reveal]{opacity:1;transform:none}.loader{display:none}</style></noscript>
+</head>
+<body data-page="about">
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <div class="loader" id="loader" role="status" aria-label="Загрузка сайта vyron">
+    <div class="loader-inner">
+      <img src="assets/logo.jpg" alt="vyron">
+      <div class="loader-bar"><i></i></div>
+      <span class="loader-caption" data-i18n="loader.caption">FW 26 · Opening Offer</span>
+    </div>
+  </div>
+
+  <header id="site-header"></header>
+
+  <main id="main" class="page">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow" data-i18n="about.heroEyebrow">О бренде</p>
+        <h1 data-i18n="about.heroTitle">Одежда для людей,<br>которые любят кино</h1>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="prose" style="max-width:980px;padding-block:clamp(48px,7vw,88px)">
+        <p class="about-manifesto" data-reveal data-i18n="about.s1p">vyron начался с простого наблюдения: самые сильные образы рождаются на экране, а самые верные им люди ходят в скучной одежде.</p>
+      </div>
+    </section>
+
+    <section class="container stats-band" aria-label="Бренд в цифрах">
+      <div class="stat-cell" data-reveal><b>8+</b><span data-i18n="hero.stat1">дизайнов в дропе</span></div>
+      <div class="stat-cell" data-reveal data-reveal-delay="70"><b>3</b><span data-i18n="hero.stat2">коллекции сезона</span></div>
+      <div class="stat-cell" data-reveal data-reveal-delay="140"><b>-20%</b><span data-i18n="hero.stat3">скидка на запуск</span></div>
+      <div class="stat-cell" data-reveal data-reveal-delay="210"><b>14</b><span data-i18n="about.daysReturn">дней на возврат</span></div>
+    </section>
+
+    <section class="section container prose">
+      <div class="prose-section" data-reveal>
+        <h2 data-i18n="about.s2h">Материя прежде всего</h2>
+        <p data-i18n="about.s2p">Каждая модель начинается с заготовки. Тяжёлый хлопок рингспан, футер средней плотности, усиленные швы и двойная игла - мы выбираем бланки, которые переживут и десятки стирок, и годы носки.</p>
+      </div>
+      <div class="prose-section" data-reveal>
+        <h2 data-i18n="about.s3h">Дизайн как кадр</h2>
+        <p data-i18n="about.s3p">Наши принты строятся как постеры к фильмам: композиция, контраст, деталь, которую замечаешь со второго взгляда.</p>
+      </div>
+      <div class="prose-section" data-reveal>
+        <h2 data-i18n="about.s4h">Три линии сезона</h2>
+        <ul>
+          <li data-i18n="about.s4p1">Heroes - комикс-вселенные: громкие образы и смелая графика.</li>
+          <li data-i18n="about.s4p2">Screen - культовые сериалы: сдержанные отсылки для своих.</li>
+          <li data-i18n="about.s4p3">Culture - музыка и символы: база, которая собирает образ.</li>
+        </ul>
+      </div>
+      <div class="prose-section" data-reveal>
+        <h2 data-i18n="about.s5h">Как мы продаём</h2>
+        <p data-i18n="about.s5p">Без посредников и автоматических воронок. Вы выбираете вещь и размер, оформляете заказ, а менеджер подтверждает его лично в Telegram или WhatsApp.</p>
+        <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:26px">
+          <a href="catalog.html" class="btn btn-primary" data-i18n="about.cta1">Смотреть каталог</a>
+          <a href="contacts.html" class="btn btn-outline" data-i18n="about.cta2">Связаться с нами</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/config.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/currency.js" defer></script>
+  <script src="js/utils.js" defer></script>
+  <script src="js/catalog.data.js" defer></script>
+  <script src="js/products.js" defer></script>
+  <script src="js/cart.js" defer></script>
+  <script src="js/wishlist.js" defer></script>
+  <script src="js/ui.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/catalog.js" defer></script>
+  <script src="js/product.js" defer></script>
+  <script src="js/checkout.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
